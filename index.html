@@ -5,7 +5,6 @@
   <title>Valley Loft Conversions</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <!-- Google Font -->
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
 
   <style>
@@ -19,12 +18,17 @@
     header {
       background: linear-gradient(135deg, #0f172a, #1e3a8a);
       color: white;
-      padding: 80px 20px;
+      padding: 60px 20px;
       text-align: center;
     }
 
+    .logo {
+      width: 60px;
+      margin-bottom: 10px;
+    }
+
     header h1 {
-      font-size: 42px;
+      font-size: 38px;
       margin-bottom: 10px;
     }
 
@@ -33,25 +37,10 @@
       opacity: 0.9;
     }
 
-    .cta {
-      margin-top: 20px;
-      display: inline-block;
-      background: #3b82f6;
-      color: white;
-      padding: 14px 24px;
-      border-radius: 8px;
-      text-decoration: none;
-      font-weight: 600;
-    }
-
     .container {
       max-width: 1000px;
       margin: auto;
       padding: 30px 20px;
-    }
-
-    .section {
-      margin-bottom: 30px;
     }
 
     .card {
@@ -59,25 +48,19 @@
       padding: 25px;
       border-radius: 12px;
       box-shadow: 0 10px 25px rgba(0,0,0,0.08);
-    }
-
-    h2 {
-      margin-top: 0;
-      margin-bottom: 10px;
+      margin-bottom: 20px;
     }
 
     .grid {
       display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-      gap: 20px;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 15px;
     }
 
     .highlight {
       background: linear-gradient(135deg, #3b82f6, #6366f1);
       color: white;
       text-align: center;
-      padding: 40px;
-      border-radius: 12px;
     }
 
     footer {
@@ -93,44 +76,46 @@
 <body>
 
 <header>
+  <!-- Simple mountain/valley logo -->
+  <img class="logo" src="https://cdn-icons-png.flaticon.com/512/427/427735.png">
+  
   <h1>Valley Loft Conversions</h1>
   <p>Transform your unused loft into a modern living space</p>
-  <a class="cta">Get Your Free Quote</a>
 </header>
 
 <div class="container">
 
-  <div class="section highlight">
-    <h2>Get an Instant Quote</h2>
-    <p>Use our AI assistant in the bottom corner to get pricing, ask questions, or request a free quote in seconds.</p>
+  <div class="card highlight">
+    <h2>Request a Free Loft Conversion Quote</h2>
+    <p>Use our AI assistant in the bottom corner to answer a few questions and request a fast, accurate quote from our team.</p>
   </div>
 
-  <div class="section">
+  <div class="card">
     <h2>Our Services</h2>
     <div class="grid">
-      <div class="card">Dormer Loft Conversions</div>
-      <div class="card">Velux Loft Conversions</div>
-      <div class="card">Home Office Builds</div>
-      <div class="card">Loft Insulation & Boarding</div>
+      <div>Dormer Loft Conversions</div>
+      <div>Velux Loft Conversions</div>
+      <div>Home Office Builds</div>
+      <div>Loft Insulation & Boarding</div>
     </div>
   </div>
 
-  <div class="section">
+  <div class="card">
     <h2>Pricing Guide</h2>
     <div class="grid">
-      <div class="card">Velux: £15k – £25k</div>
-      <div class="card">Dormer: £30k – £50k</div>
-      <div class="card">Full Conversion: £45k – £65k</div>
+      <div>Velux: £15k – £25k</div>
+      <div>Dormer: £30k – £50k</div>
+      <div>Full Conversion: £45k – £65k</div>
     </div>
   </div>
 
-  <div class="section">
+  <div class="card">
     <h2>Why Choose Us</h2>
     <div class="grid">
-      <div class="card">10+ Years Experience</div>
-      <div class="card">Fully Insured</div>
-      <div class="card">Free Quotes</div>
-      <div class="card">Local South Wales Team</div>
+      <div>10+ Years Experience</div>
+      <div>Fully Insured</div>
+      <div>Free Quotes</div>
+      <div>Local South Wales Team</div>
     </div>
   </div>
 
