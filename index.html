@@ -3,38 +3,51 @@
 <head>
   <meta charset="UTF-8">
   <title>Valley Loft Conversions</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <style>
     body {
       font-family: Arial, sans-serif;
       margin: 0;
-      background: #f5f5f5;
-      color: #333;
+      background: #f8fafc;
+      color: #1e293b;
     }
     header {
-      background: #1e2a38;
+      background: linear-gradient(135deg, #1e293b, #334155);
       color: white;
-      padding: 40px;
+      padding: 60px 20px;
       text-align: center;
     }
-    section {
-      padding: 40px;
+    header h1 {
+      font-size: 40px;
+      margin-bottom: 10px;
+    }
+    header p {
+      font-size: 18px;
+      opacity: 0.9;
+    }
+    .container {
       max-width: 900px;
       margin: auto;
-      background: white;
-      margin-top: 20px;
-      border-radius: 8px;
+      padding: 20px;
     }
-    h1, h2 {
+    .card {
+      background: white;
+      padding: 25px;
+      margin-top: 20px;
+      border-radius: 10px;
+      box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+    }
+    h2 {
       margin-top: 0;
     }
     .cta {
-      background: #007bff;
-      color: white;
-      padding: 15px 25px;
       display: inline-block;
-      border-radius: 5px;
+      background: #3b82f6;
+      color: white;
+      padding: 12px 20px;
+      border-radius: 6px;
       text-decoration: none;
-      margin-top: 20px;
+      margin-top: 15px;
     }
   </style>
 </head>
@@ -42,41 +55,42 @@
 
 <header>
   <h1>Valley Loft Conversions</h1>
-  <p>Transform your unused loft into a beautiful living space</p>
+  <p>Transform your loft into a modern living space</p>
 </header>
 
-<section>
-  <h2>Our Services</h2>
-  <ul>
-    <li>Dormer loft conversions</li>
-    <li>Velux loft conversions</li>
-    <li>Home office & bedroom builds</li>
-    <li>Loft insulation & boarding</li>
-  </ul>
-</section>
+<div class="container">
 
-<section>
-  <h2>Pricing Guide</h2>
-  <p>Velux conversions: £15,000 – £25,000</p>
-  <p>Dormer conversions: £30,000 – £50,000</p>
-  <p>Full conversions: £45,000 – £65,000</p>
-</section>
+  <div class="card">
+    <h2>Get an Instant Quote</h2>
+    <p>Use our AI assistant in the bottom corner to get pricing, ask questions, or request a free quote.</p>
+  </div>
 
-<section>
-  <h2>Why Choose Us?</h2>
-  <ul>
-    <li>10+ years experience</li>
-    <li>Fully insured</li>
-    <li>Free quotes</li>
-    <li>Local South Wales team</li>
-  </ul>
-</section>
+  <div class="card">
+    <h2>Our Services</h2>
+    <ul>
+      <li>Dormer loft conversions</li>
+      <li>Velux loft conversions</li>
+      <li>Loft insulation & boarding</li>
+      <li>Home office & bedroom builds</li>
+    </ul>
+  </div>
 
-<section>
-  <h2>Get an Instant Quote</h2>
-  <p>Use our AI assistant in the bottom corner to get a quote or ask questions.</p>
-</section>
+  <div class="card">
+    <h2>Pricing Guide</h2>
+    <p>Velux: £15k – £25k</p>
+    <p>Dormer: £30k – £50k</p>
+    <p>Full conversion: £45k – £65k</p>
+  </div>
 
+  <div class="card">
+    <h2>Why Choose Us</h2>
+    <ul>
+      <li>10+ years experience</li>
+      <li>Fully insured</li>
+      <li>Free quotes</li>
+      <li>Local South Wales team</li>
+    </ul>
+  </div>
 
     <script src="https://cdn.botpress.cloud/webchat/v3.6/inject.js"></script>
 <script src="https://files.bpcontent.cloud/2025/11/15/10/20251115100145-O287662K.js" defer></script>
